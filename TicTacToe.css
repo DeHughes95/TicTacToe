@@ -1,0 +1,25 @@
+:root {
+    --mypurple: #1D1160;
+    --myorange: #E56020;
+    --mygray:  #63727A;
+    --myyellow: #F9AD1B;
+    --mydarkorange: #B95915;
+    --mylightgray: #BEC0C2;
+}
+
+.gameboard {
+    border-collapse: collapse;
+    background-image: url('Board.png');
+}
+
+.gameboard td {
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+}
+
+.gameboard img {
+    width: 80px;
+}
